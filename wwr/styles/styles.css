@@ -8,6 +8,7 @@ nav a {
     text-align: center;
     color: #E0E1DD;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -33,6 +34,13 @@ main section {
 
 body {
     background-color: #646E78;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    margin: 0;
 }
 
 header {
@@ -48,11 +56,15 @@ nav a:hover {
     background-color: #E0E1DD;
     color: #646E78;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 
 .book:hover, .join:hover {
     background-color: #646E78;
     color:#E0E1DD;
+    border-radius: 5px;
 }
 
 #background {
@@ -61,15 +73,21 @@ nav a:hover {
 
 .msg {
     background-color: #E0E1DD;
+    line-height: 1.5em;
 }
 
 footer {
     background-color: #C08552;
     color:#E0E1DD;
+    padding: 25px 50px;
+    margin-top: 200px
 }
 
 .home-title {
     color: #E0E1DD;
+    font-family:cursive;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -78,10 +96,14 @@ h4 {
 
 .msg h2 {
     color:#190B28;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
 .msg p {
     color:#190B28;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -99,6 +121,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -111,4 +134,22 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px;
+}
+main section img {
+    box-sizing: border-box;
 }
