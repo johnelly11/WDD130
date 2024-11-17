@@ -311,3 +311,55 @@ h4 {
     color: white;
 }
 
+#faq {
+    background-color: white;
+    color: #190B28;
+    width: 80%;
+    
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+}
+
+#rates {
+    background-color: rgb(158, 158, 158);
+    color:#e7ecf0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+#rates table {
+    margin: auto;
+    text-align: left;
+  }
+
+#rates td {
+    padding-left: 100px;
+  }
+
+
+#blog {
+    position: relative; 
+    width: 90%;
+    background-color:#C08552;
+    color: #E0E1DD;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  #blog img {
+    float: left; 
+    margin-right: 20px; 
+    max-width: 300px;
+    
+  }
+  
+  #blog p {
+    margin: 0; 
+  }
