@@ -18,26 +18,75 @@
             <a href="site_plan/site_plan.html">Site Plan</a>
             <a href="downloads.html">Downloads</a>
         </nav>
+        
     </header>
 
 
 <body>
+
+
+    <div id="intro">
+        <h1 style="text-align: center;">You made it to the main event: Welcome to my compositions!</h1>
+        <p style="text-indent: 40px;">
+             Not everything I’ve made is in here yet, and I may update it from time to time. I started composing music in my downtime, just a few minutes a night, when I was living in South Korea; serving as a full-time missionary for the Church of Jesus Christ of Latter-day Saints. It was difficult at first because I was relatively new at music, I had no access to instruments in the apartment, and I didn’t have a lot of time to work on them. I would have to compose my ideas on physical music score, then on p-days, my one day off in the week—typically Monday, I would use the computer we had access to in the church to transcribe my music digitally to an online composition web app called flat.io to see if it sounded like I wanted it to. Nowadays, I use Musescore, an open-source application that is more capable in my opinion. If you want to see the pdf of any of these motifs, you will be able to find it under the same title in my pdf download page. Again, I ask that none of my pieces be ripped or plagiarized for use in any sort of media, but feel free to play with my ideas and contact me with what you make!
+        </p>
+        <p>Hit the boxes for the songs and descriptions!</p>
+    </div>
+
+
+    <button class="accordion">Ominous Lullaby - Piano 2023, Cm 4/4</button>
+    <div class="panel">
+    
+    
     <div class="songs">
-    <audio id="myAudio" controls style="width: 50%;">
+    <audio id="myAudio" controls>
         <source src="mp3/ominous_lullaby.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
-    <p>Stuff about this song...........................</p>
+    <p>This is one of the songs I wrote during my missionary service. I actually worked on this song across a couple days during the time we had allocated for getting ready for bed. I did not have any sort of tonal reference in our apartment, so this is one of the songs I composed on music paper and didn't actually hear what it sounded like until I transposed it to a computer, haha. It may sound crazy, but it's more than doable after time of proper music practice!</p>
+    </div>
     </div>
 
+
+
+    <button class="accordion">Halloween Prelude - Piano 2023, Cm 4/4</button>
+    <div class="panel">
+    
+    
+
     <div class="songs">
-    <audio class="songs" id="myAudio" controls style="width: 50%;">
+    <audio id="myAudio" controls>
         <source src="mp3/halloween_prelude.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
-    <p>Stuff about this song...........................</p>
+    <p>This song is a song that I also wrote on my mission but as part of a halloween songwriting competition I had with another mission friend where we saw who could make the best halloween piece before halloween of 2023. This was like an intro section of a bigger piece, and was influenced by Bach's preludes, but I seperate it out like this because it can stand on it's own and still be cool!</p>
     </div>
+    </div>
+
+
 </body>
+
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+        panel.style.display = "none";
+        } else {
+        panel.style.display = "block";
+        }
+    });
+    }
+</script>
 
 <footer>
     <p>Jonathan's Songs &copy; 2024 - Jonathan Nelson</p>
