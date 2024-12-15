@@ -96,7 +96,34 @@ footer p {
 }
    
 
+.pdf {
+    position: relative; 
+    width: 70%;
+    background-color: rgb(90, 84, 128);
+    color: #E0E1DD;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    padding-left: 50px;
+}
 
+.pdf:nth-child(odd) {
+    float: left;
+    clear: both;
+}
+
+.pdf:nth-child(even) {
+    float: right;
+    clear: both;
+}
+.pdf a {
+    color:#E0E1DD
+}
+footer {
+    clear: both;
+}
 
 
 
@@ -199,31 +226,3 @@ footer p {
 
 
 
-.pdf {
-    position: relative; 
-    width: 70%;
-    background-color: rgb(90, 84, 128);
-    color: #E0E1DD;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    padding-left: 50px;
-}
-
-.pdf:nth-child(odd) {
-    float: left;
-    clear: both;
-}
-
-.pdf:nth-child(even) {
-    float: right;
-    clear: both;
-}
-.pdf a {
-    color:#E0E1DD
-}
-footer {
-    clear: both;
-}
